@@ -1,0 +1,33 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/fondologin.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#login-form {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.is-horizontal-center {
+    justify-content: center;
+}
